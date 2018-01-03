@@ -1,0 +1,86 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar-brand {
+	font-family: Cinzel, serif;
+	color: #ffc107 !important;
+}
+
+.navbar-brand span {
+	font-family: 'Cinzel Decorative', Cinzel, serif;
+	margin-right: -.15em;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.nav-link:hover  {
+	color: #fc0 !important;
+}
+
+.ticketsBtn {
+	background-color: #ffc107;
+	color: rgba(0, 0, 0, 0.9) !important;
+	border-radius: .25rem;
+	text-align: center;
+}
+
+.ticketsBtn:hover {
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.card-header {
+	font-family: Cinzel, serif;
+}
+
+.card {
+	max-width: 100%;
+}
+
+.card-text {
+	word-wrap: break-word;
+}
+
+.col-sm-auto {
+	width: 100% !important;
+}
+
+.page-footer {
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.social_icons svg {
+	fill: currentColor;
+	padding: .5em;
+	height: 2em;
+	width: 2em;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+	  width: 100%;
+	}
+
+	.navbar-nav {
+		width: 100%;
+		display: table;
+	}
+
+	.navbar li {
+		display: table-cell;
+	}
+
+	.navbar li a {
+	  text-align: center;
+	  border-right: 1px solid rgba(0, 0, 0, .1);
+	}
+
+	.navbar li:last-child a {
+	  border-right: 0;
+	}
+}
